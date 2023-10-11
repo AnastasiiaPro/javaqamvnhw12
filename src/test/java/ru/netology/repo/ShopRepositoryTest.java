@@ -1,6 +1,7 @@
+package ru.netology.repo;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 public class ShopRepositoryTest {
     Product product1 = new Product(34, "egs", 100);
     Product product2 = new Product(77, "bread", 50);

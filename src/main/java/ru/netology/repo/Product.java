@@ -1,3 +1,5 @@
+package ru.netology.repo;
+
 import java.util.Objects;
 
 public class Product {
