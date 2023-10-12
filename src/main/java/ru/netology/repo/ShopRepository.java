@@ -1,4 +1,5 @@
 package ru.netology.repo;
+
 public class ShopRepository {
     private Product[] products = new Product[0];
 
@@ -57,6 +58,9 @@ public class ShopRepository {
     public void removeById(int id) {
         if (findById(id) == null) {
             throw new NotFoundException("Element with id: " + id + " not found");
-        }
+        } else {
+            remove(id);
+            }
+
     }
 }
