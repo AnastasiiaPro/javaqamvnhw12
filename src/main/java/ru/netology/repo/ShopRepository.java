@@ -60,7 +60,6 @@ public class ShopRepository {
             throw new NotFoundException("Element with id: " + id + " not found");
         } else {
             remove(id);
-            }
-
+        }
     }
 }
